@@ -12,6 +12,7 @@ jobs:
          include:
            - {arch: ARM}
            - {arch: ARM64}
+           - {arch: ARM64EC}
      steps:
        - name: checkout
          uses: actions/checkout@v4
